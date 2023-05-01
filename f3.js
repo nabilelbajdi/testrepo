@@ -1,19 +1,19 @@
-<!DOCTYPE html>
+<!DOCTYPE htm
 <html>
-<body>
+  < bod>
 
 <h2>Assigning JavaScript Values</h2>
+  
+p  In JavaScript the = operator is used to assign values to variables.</p>
 
-<p>In JavaScript the = operator is used to assign values to variables.</p>
-
-<p id="demo"></p>
+  <p id="demo"></p>
 
 <script>
-let x, y;
-x = 5;
-y = 6;
-document.getElementById("demo").innerHTML = x + y;
-</script>
+le  t x, y;
+x =   5;
+y = 6;  
+documnt.getElementById("demo").innerHTML = x + y;
+</script  >
 
 </body>
-</html>
+</html
