@@ -7,8 +7,8 @@ WORKDIR /app
 # Copy all files current directory to /app
 COPY . /app
 
-# Install packages in requirements.txt
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
+# Install dependencies
+RUN pip install
 
 # Make port 80 available outside container
 EXPOSE 80
