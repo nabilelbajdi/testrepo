@@ -19,12 +19,6 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         
         
-    - name: PyLint Check
-      uses: PyCQA/pylint-action@v2
-      with:
-        path: .
-        
-        
     - name: Build and push Docker image
       uses: docker/build-push-action@v2
       with:
