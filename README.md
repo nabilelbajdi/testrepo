@@ -1,3 +1,3 @@
-# Test Repo
+# Test repository for building pipelines and GitLab mirroring
 
-test
+Updating README file to see if it mirrors to GitLab
