@@ -1,3 +1,3 @@
 # Test repository for building pipelines and GitLab mirroring
 
-Updating the README file to see if it mirrors to GitLab
+Test 1: Testing to see if changes to Main branch are also mirrored to GitLab
