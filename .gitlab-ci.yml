@@ -1,6 +1,6 @@
 stages:
   - build
-  - test
+  - lint
   - deploy
 
 build-job:
@@ -8,18 +8,12 @@ build-job:
   script:
     - echo "Hello, $GITLAB_USER_LOGIN!"
 
-test-job1:
-  stage: test
+lint-job:
+  stage: lint
+  image: node:latest
   script:
-    - echo "This job tests something"
-
-test-job2:
-  stage: test
-  script:
-    - echo "This job tests something, but takes more time than test-job1."
-    - echo "After the echo commands complete, it runs the sleep command for 20 seconds"
-    - echo "which simulates a test that runs 1 second longer than test-job1"
-    - sleep 1
+    - npm install --save-dev eslint
+    - npx eslint src/
 
 deploy-prod:
   stage: deploy
