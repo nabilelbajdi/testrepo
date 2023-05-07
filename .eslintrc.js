@@ -1,3 +1,4 @@
+// .eslintrc.js example
 module.exports = {
   env: {
     browser: true,
@@ -10,6 +11,6 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    // your rules here
-  }
+    semi: ["error", "always"],
+  },
 };
