@@ -13,7 +13,7 @@ lint-job:
   image: node:latest
   script:
     - npm install --save-dev eslint
-    - npx eslint src/
+    - npx eslint .
 
 deploy-prod:
   stage: deploy
