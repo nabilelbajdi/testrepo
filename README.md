@@ -1,3 +1,3 @@
-# Test repository for building pipelines and GitHub to GitLab mirroring
+# Test repository for building pipelines and GitLab mirroring
 
-This GitHub repository is mirorred in the GitLab repository located at [https://gitlab.com/nabilelbajdi/mirroring-test](https://gitlab.com/nabilelbajdi/mirroring-test). 
+This GitLab repository is a mirror of the GitHub repository located at [https://github.com/nabilelbajdi/testrepo](https://github.com/nabilelbajdi/testrepo). 
