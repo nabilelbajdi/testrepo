@@ -1,3 +1,3 @@
 # Test
 
-This should show in GitLab
+This should show in GitLab.
