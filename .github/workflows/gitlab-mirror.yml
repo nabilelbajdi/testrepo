@@ -10,7 +10,7 @@ jobs:
     - name: Mirror + trigger CI
       uses: SvanBoxel/gitlab-mirror-and-ci-action@master
       with:
-        args: "--all-branches https://gitlab.com/nabilelbajdi/mirror"
+        args: "https://gitlab.com/nabilelbajdi/mirror"
       env:
         FOLLOW_TAGS: "false"
         FORCE_PUSH: "false"
